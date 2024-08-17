@@ -4,6 +4,8 @@
 
 <br/>
 
+## Desafio
+
 Você está dando os primeiros passos no uso de containers. E a melhor forma de iniciar no mundo de containers é usar em ambiente de desenvolvimento.
 
 Sua missão é ajudar a equipe de desenvolvimento a ter mais autonomia no desenvolvimento de projetos. E uma das reclamações da equipe é o setup local.
@@ -16,7 +18,7 @@ Crie um comando para criar um banco de dados PostgreSQL no ambiente do desenvolv
 Lembrando que a execução em container deve ser transparente pra quem está desenvolvendo. E que aqui você não precisa se preocupar com a perda dos dados do banco e nem nada disso, é apenas para desenvolvimento pontual.
 Coloque aqui embaixo o comando que a equipe deve usar pra criar um banco de dados PostgreSQL com esses requisitos.
 
-# Solução
+## Solução
 
 [Postgres - Official Image | Docker Hub](https://hub.docker.com/_/postgres)
 
