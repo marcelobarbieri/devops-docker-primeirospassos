@@ -1,4 +1,6 @@
-# Desafio 01 - Banco de Dados Postgresql
+# Desafios - Docker Primeiros Passos
+
+<details><summary>Desafio 01 - Banco de Dados Postgresql</summary>
 
 Você está dando os primeiros passos no uso de containers. E a melhor forma de iniciar no mundo de containers é usar em ambiente de desenvolvimento.
 
@@ -47,3 +49,4 @@ Status: Downloaded newer image for postgres:latest
 
 ![image](https://github.com/user-attachments/assets/0e6decc9-7e20-4050-9469-4e8aa3ed516f)
 
+</details>
