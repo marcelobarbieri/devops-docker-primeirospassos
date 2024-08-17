@@ -2,6 +2,8 @@
 
 <details><summary>Desafio 01 - Banco de Dados Postgresql</summary>
 
+<br/>
+
 Você está dando os primeiros passos no uso de containers. E a melhor forma de iniciar no mundo de containers é usar em ambiente de desenvolvimento.
 
 Sua missão é ajudar a equipe de desenvolvimento a ter mais autonomia no desenvolvimento de projetos. E uma das reclamações da equipe é o setup local.
