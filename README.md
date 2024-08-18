@@ -96,3 +96,48 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
 ![image](https://github.com/user-attachments/assets/d8ec2f75-a142-4f27-b44b-454dfb9d7486)
 
 </details>
+
+<details><summary>Desafio 03 - Banco de Dados MongoDB</summary>
+
+<br/>
+
+## Desafio
+
+Pra finalizar essa etapa, crie o comando pra criar o banco de dados MongoDB usando os requisitos abaixo:
+
+* O usuário root do banco deve ser mongo_usr
+* A senha do usuário root deve ser mongo_pwd
+
+Lembrando que a execução em container deve ser transparente pra quem está desenvolvendo. E que aqui você não precisa se preocupar com a perda dos dados do banco e nem nada disso, é apenas para desenvolvimento pontual.
+
+Coloque aqui embaixo o comando que a equipe deve usar pra criar um banco de dados MongoDB com esses requisitos.
+
+## Solução
+
+[Mongo - Official Image | Docker Hub](https://hub.docker.com/_/mongo)
+
+```sh
+$ docker container run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongo_usr -e MONGO_INITDB_ROOT_PASSWORD=mongo_pwd mongo
+Unable to find image 'mongo:latest' locally
+latest: Pulling from library/mongo
+857cc8cb19c0: Pull complete
+ced7a238bbe6: Pull complete
+02b2514837c9: Pull complete
+22133372085a: Pull complete
+c2dcbe55d7d8: Pull complete
+8d8896cc7f27: Pull complete
+21700c8b4854: Pull complete
+d6268a37a75c: Pull complete
+Digest: sha256:ae1cf99fa7bfb007db8416ad4f3980c46054d949fa55d28e6d301a813fee6c06
+Status: Downloaded newer image for mongo:latest
+983003bfc560fd448a9374e2b7e29594494d6b4e3dde3d2e3ac101c4d2786d2a
+
+$ docker container ls
+CONTAINER ID   IMAGE      COMMAND                  CREATED         STATUS         PORTS                                                  NAMES
+983003bfc560   mongo      "docker-entrypoint.s…"   5 seconds ago   Up 5 seconds   0.0.0.0:27017->27017/tcp, :::27017->27017/tcp          kind_vaughan
+```
+
+![image](https://github.com/user-attachments/assets/ab4b5054-a983-472c-8d76-4de50b9e680c)
+
+
+</details>
